@@ -1,0 +1,14 @@
+Problem statement -
+Dataset features:
+  car brand,year,sold price, present price,KMS Driven, Fuel Type, Seller Type, Transmission Type, owner
+we need to train ML algoritm so that it can find pattern on the datasets.Once we put new info it can predict
+what price that particular used car can be sold.
+
+Work Flow:
+1. car data collection
+2. do data pre processing just because we wont train raw dataset.
+3. divide that data into train & test data.
+4. feed these train n test datasets into two different Linear & Lasso regression model.And judge which one is
+   better by accuracy score n percentage error.
+5. feed new data to Trained Linear & Lasso regression model so that it can predict at what price the car can be 
+   sold.
